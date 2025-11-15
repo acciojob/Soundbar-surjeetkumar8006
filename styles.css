@@ -1,1 +1,29 @@
-/*  your css code here. If applicable */
+body {
+  margin: 0;
+  padding: 0;
+  background: #a56be8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#buttons {
+  display: flex;
+  gap: 25px;
+}
+
+.btn, .stop {
+  padding: 15px 25px;
+  border: none;
+  background: #5a2ea6;
+  color: white;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.btn:hover, .stop:hover {
+  opacity: 0.8;
+}
